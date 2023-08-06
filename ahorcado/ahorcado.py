@@ -17,9 +17,9 @@ def obtener_palabra_válida(palabras):
 
 
 def ahorcado():
-    print("=======================================")
-    print(" ¡Bienvenido(a) al juego del Ahorcado! ")
-    print("=======================================")
+    print("(*/ω＼*)============================(*/ω＼*)")
+    print("       ¡¡Bienvenido(a) al Juego del Ahorcado!!")
+    print("^_^ ================================ ^_^")
 
     palabra = obtener_palabra_válida(palabras)
     letras_por_adivinar = set(
@@ -36,7 +36,7 @@ def ahorcado():
         # Letras adivinadas:
         # ' '.join(['a', 'b', 'c']) --> 'a b c'
         print(
-            f"Te quedan {vidas} vidas y has usado estas letras: {' '.join(letras_adivinadas)}"
+            f"Te quedan {vidas} vidas ಠ_ಠ y has usado estas letras: {' '.join(letras_adivinadas)}"
         )
 
         # Estado actual de la palabra que el jugador debe adivinar (por ejemplo:  H - L A)
@@ -64,20 +64,22 @@ def ahorcado():
             # Si la letra no está en la palabra, quitar una vida.
             else:
                 vidas = vidas - 1
-                print(f"\nTu letra, {letra_usuario} no está en la palabra.")
+                print(f"\nTu letra, {letra_usuario} no está en la palabra. (●'◡'●)")
         # Si la letra escogida por el usuario ya fue ingresada.
         elif letra_usuario in letras_adivinadas:
-            print("\nYa escogiste esa letra. Por favor escoge una letra nueva.")
+            print("\nYa escogiste esa letra. Por favor escoge una letra nueva. (*/ω＼*)")
         else:
-            print("\nEsta letra no es válida.")
+            print("\nEsta letra no es válida. (┬┬﹏┬┬)")
 
     # El juego llega a esta línea cuando se agotan las vidas del jugador
     # o cuando se adivinan todas las letras de la palabra.
     if vidas == 0:
         print(vidas_diccionario_visual[vidas])
-        print(f"¡Ahorcado! Perdiste. Lo lamento mucho. La palabra era: {palabra}")
+        print(
+            f"¡Ahorcado! Perdiste. ( ╯□╰ ) Lo lamento mucho. La palabra era: {palabra}"
+        )
     else:
-        print(f"¡Excelente! ¡Adivinaste la palabra {palabra}!")
+        print(f"¡Excelente! ¡Adivinaste la palabra {palabra}! ヾ(⌐■_■)ノ♪")
 
 
 if __name__ == "__main__":
