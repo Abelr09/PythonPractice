@@ -1,0 +1,32 @@
+    
+[
+    {
+        "id": 1,
+        "name": "Abel",
+        "lastname": "Amarilla"
+    
+    },
+    
+    {
+        "id": 2,
+        "name": "Pep",
+        "lastname": "Guardiola"
+    
+    },
+
+    {
+        "id": 3,
+        "name": "Lionel",
+        "lastname": "Messi"
+    
+    },
+    
+    {
+        "id": 4,
+        "name": "Juan",
+        "lastname": "Perez"
+    
+    }
+       
+       
+]
