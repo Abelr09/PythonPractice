@@ -2,6 +2,7 @@ from tkinter import *
 import argparse
 
 root = Tk()
+root.geometry("400x300")
 root.title("Calculator")
 
 display = Entry(root)

@@ -2,9 +2,6 @@ import random
 
 
 def adivina_el_numero_computadora(x):
-    print("(*/ω＼*)============================(*/ω＼*)")
-    print("       ¡¡Bienvenido(a) al Juego!!")
-    print("^_^ ================================ ^_^")
     print(
         f"Selecciona un numero entre 1 y {x} para que la computadora intente adivinarlo.! (●'◡'●)"
     )
